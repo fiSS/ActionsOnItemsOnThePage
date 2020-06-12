@@ -89,7 +89,7 @@ if(newFilm.length > 21) {
 ```javascript
 movieDB.movies.push(newFilm);
 ```
-###### использую в качестве метода функцию createMovieList для для добавления элемента.
+###### использую в качестве метода функцию createMovieList для добавления элемента.
 ```javascript
 createMovieList(movieDB.movies, movieList);
 ```
