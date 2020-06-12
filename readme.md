@@ -1,5 +1,5 @@
 #### JS
-##### поучение с элементами на странице с которыми буду работать
+##### поучение элементов со странице с которыми буду работать
 ```javascript
 const advertizing = document.querySelectorAll('.promo__adv img'),
           genreOfMovies = document.querySelector('.promo__genre'),
@@ -11,6 +11,7 @@ const advertizing = document.querySelectorAll('.promo__adv img'),
 ```
 ##### 1.удаление рекламных сообщений со страницы, в качестве аргумента при вызове использую псевдоколлекцию полученную и записанную в advertizing.
 ```javascript
+advertizing = document.querySelectorAll('.promo__adv img');
 const deleteAdv = (arr) => {
         arr.forEach(function (item) {
             item.remove();
